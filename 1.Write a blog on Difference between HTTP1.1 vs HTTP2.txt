@@ -1,0 +1,26 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+
+HTTP 1.1
+--------
+
+1. Published on 1997.
+2. HTTP1.1 is slower and not reliable
+3. HTTP1.1 loads resource one after the other, so if one resource cannot be loaded, it blocks all the resource behind it.
+4. It is less secure
+5. It uses binary protocols
+6. The textual protocols used in HTTP1.1
+7. It can initiate single request in TCP connection.
+--------------------------------------------------------------
+HTTP 2
+-------
+
+1. Published on May 2015.
+2. HTTP2 is much faster and more reliable than HTTP.1
+3. HTTP2 is able to use single TCP connection to send multiple streams of data at once so that no one resource blocks ant other resource.
+4. It is more secure than HTTP1.1
+5.  It uses multiplexing
+6. Binary protocols consume less bandwidth and are more efficient and are less error prone than the textual protocols used in HTTP1.1
+7. IT can initiate multiple requests in TCP connection. Ie, MUltiplexing
+8. Suported by most major browsers.
+--------------------------------------------------------------

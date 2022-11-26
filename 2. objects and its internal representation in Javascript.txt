@@ -1,0 +1,33 @@
+2.Write a blog about objects and its internal representation in Javascript
+--------------------------------------------------------------------------
+
+
+1. An object is a primitive  data type.
+2. An object can be created with figure brackets {…} 
+   with an optional list of properties.
+3. A property is a "key: value" pair, where a key is a string, 
+   and value can be anything.
+4. Objects can contain many values.
+
+  an example of a JavaScript Object :
+  
+    let school = {
+    name        : "Vivekananda School",
+    location    : "Tamilnadu",
+    established : 1997
+    } ;  
+
+Key - name,location,established
+
+Values - "Vivekananda School","Tamilnadu",1997 
+ 
+call in full object - console.log(school) = { name: 'Vivekananda School',
+                                              location: 'Tamilnadu',
+                                              established: '1997' } 
+
+Call in name value- (school.name) or (school['name'])  = Vivekananda School.
+
+changing value ---- school.name = 'Gov school' (changing school name)
+
+new key and value adding ---- school.rank = 32; (add new propertie in rank : 32)
+                     
